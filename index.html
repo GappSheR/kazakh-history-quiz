@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест: Батырлар Джунгарской войны</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">Ұ</span>
+          <div>
+            <p class="eyebrow">История Казахстана</p>
+            <h1>Батырлар и герои Джунгарской войны</h1>
+          </div>
+        </div>
+      </header>
+
+      <main class="quiz-wrap">
+        <section class="quiz-card" id="quizCard">
+          <div class="quiz-top">
+            <div class="badge">7 класс</div>
+            <div id="progressText" class="progress-text">Вопрос 1/20</div>
+          </div>
+
+          <div class="question-block">
+            <p id="questionText" class="question-text"></p>
+          </div>
+
+          <div id="optionsContainer" class="options"></div>
+
+          <div class="actions">
+            <button id="nextBtn" class="btn btn-primary" type="button">
+              Далее
+            </button>
+          </div>
+        </section>
+
+        <section id="resultCard" class="result-card hidden">
+          <div class="result-icon">🏆</div>
+          <h2>Тест завершён!</h2>
+          <p id="resultText"></p>
+          <button id="restartBtn" class="btn btn-secondary" type="button">
+            Пройти ещё раз
+          </button>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
